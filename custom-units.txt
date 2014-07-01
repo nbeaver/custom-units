@@ -1,1 +1,73 @@
-/home/nathaniel/.units
+#
+# This file is a personal units database for use with GNU units,
+# a units conversion program by Adrian Mariano adrian@cam.cornell.edu
+# See the original file at /usr/share/units/definitions.units (or /usr/share/misc/units.dat in older versions).
+# Note: if you attempt to redefine something already in the standard units file,
+# it will happily do so without warning you.
+# You can catch this with the --check flag.
+
+answer_to_life_the_universe_and_everything 42
+potrzebie               2.263348517438173216473 mm
+Ry                      rydberg # I prefer this abbreviation for the Rydberg energy constant <http://physics.nist.gov/cgi-bin/cuu/Value?rydhcev>
+
+# http://physics.nist.gov/cgi-bin/cuu/Value?re|search_for=electron
+r_e                     electronradius # Classical electron radius, Thomson scattering length, Lorentz radius
+# https://en.wikipedia.org/wiki/Escape_velocity#List_of_escape_velocities
+escape_velocity_mercury 4.3  km/s
+escape_velocity_venus   10.3 km/s
+escape_velocity_earth   11.2 km/s
+escape_velocity_moon    2.4  km/s
+escape_velocity_mars    5.0  km/s
+escape_velocity_pluto   1.2  km/s
+
+# surface gravitational acceleration on various planets
+# http://en.wikipedia.org/wiki/Surface_gravity
+gravity_earth   gravity
+gravity_sun     28.02 gravity
+gravity_mercury 0.38  gravity
+gravity_venus   0.90  gravity
+gravity_moon    0.165 gravity
+gravity_mars    0.38  gravity
+gravity_jupiter 2.53  gravity
+gravity_saturn  1.07  gravity
+gravity_uranus  0.89  gravity
+gravity_neptune 1.14  gravity
+gravity_pluto   0.067 gravity
+
+# Specific heat capacities
+# http://en.wikipedia.org/wiki/Specific_heat#Table_of_specific_heat_capacities
+# Specific heat capacity of water at 25 °C
+water_Cp 4.1813 J / g K
+water_Cv 4.1796 J / cm^3 K
+# Ice at −10 °C
+ice_Cp 2.11 J / g K
+ice_Cv 1.938 J / cm^ K
+# Steel
+steel_Cp 0.466 J / g K
+# Air (typical room conditions)
+air_Cp 1.012 J / g K
+air_Cv 0.00121 J / cm^3 K
+
+# g-factor values
+g_e  -2.002319304  # electron
+g_n  -3.82608545   # neutron
+g_p   5.585694713  # proton
+g_mu -2.0023318414 # muon
+
+# tons of TNT
+kiloton_TNT 4.184 gigajoule
+megaton_TNT 4.184 petajoule
+g_TNT       4.184 kilojoule
+kg_TNT      4.184 megajoule
+
+# chemistry stuff
+molarity mol/L
+molality mol/kg
+
+# milli-amp hours (mAh) = 3.6 C (coulomb)
+mAh mA * 1 hour
+
+# Defition of blood alcohol content/concentration used in US and Canada.
+# e.g. 0.10 BAC is .10 g/ dL
+BAC g/dL
+density_ethanol 0.789 g/cm^3
