@@ -66,6 +66,9 @@ molality mol/kg
 
 # milli-amp hours (mAh) = 3.6 C (coulomb)
 mAh mA * 1 hour
+# charge rate, e.g. C/10 charges a battery in 10 hours.
+# https://en.wikipedia.org/wiki/Battery_charger
+C_rate 1/hour
 
 # Defition of blood alcohol content/concentration used in US and Canada.
 # e.g. 0.10 BAC is .10 g/ dL
