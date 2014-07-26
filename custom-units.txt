@@ -63,6 +63,7 @@ kg_TNT      4.184 megajoule
 # chemistry stuff
 molarity mol/L
 molality mol/kg
+mole_num 6.02214129e23
 
 # milli-amp hours (mAh) = 3.6 C (coulomb)
 mAh mA * 1 hour
