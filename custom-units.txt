@@ -74,4 +74,4 @@ C_rate 1/hour
 # Defition of blood alcohol content/concentration used in US and Canada.
 # e.g. 0.10 BAC is .10 g/ dL
 BAC g/dL
-density_ethanol 0.789 g/cm^3
+ethanol_density 0.789 g/cm^3
