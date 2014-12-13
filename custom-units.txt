@@ -6,12 +6,17 @@
 # it will happily do so without warning you.
 # You can catch this with the --check flag.
 
+# Aliases for convenience (not new units)
+# I prefer this abbreviation for the Rydberg energy constant.
+# Source: <http://physics.nist.gov/cgi-bin/cuu/Value?rydhcev>
+Ry                      rydberg
+# Classical electron radius, a.k.a. Thomson scattering length, a.k.a Lorentz radius
+# Source: http://physics.nist.gov/cgi-bin/cuu/Value?re|search_for=electron
+r_e                     electronradius
+
 answer_to_life_the_universe_and_everything 42
 potrzebie               2.263348517438173216473 mm
-Ry                      rydberg # I prefer this abbreviation for the Rydberg energy constant <http://physics.nist.gov/cgi-bin/cuu/Value?rydhcev>
 
-# http://physics.nist.gov/cgi-bin/cuu/Value?re|search_for=electron
-r_e                     electronradius # Classical electron radius, Thomson scattering length, Lorentz radius
 # https://en.wikipedia.org/wiki/Escape_velocity#List_of_escape_velocities
 escape_velocity_mercury 4.3  km/s
 escape_velocity_venus   10.3 km/s
@@ -20,8 +25,8 @@ escape_velocity_moon    2.4  km/s
 escape_velocity_mars    5.0  km/s
 escape_velocity_pluto   1.2  km/s
 
-# surface gravitational acceleration on various planets
-# http://en.wikipedia.org/wiki/Surface_gravity
+# Surface gravitational acceleration on various planets.
+# Source: http://en.wikipedia.org/wiki/Surface_gravity
 gravity_earth   gravity
 gravity_sun     28.02 gravity
 gravity_mercury 0.38  gravity
@@ -35,7 +40,7 @@ gravity_neptune 1.14  gravity
 gravity_pluto   0.067 gravity
 
 # Specific heat capacities
-# http://en.wikipedia.org/wiki/Specific_heat#Table_of_specific_heat_capacities
+# Source: http://en.wikipedia.org/wiki/Specific_heat#Table_of_specific_heat_capacities
 # Specific heat capacity of water at 25 °C
 water_Cp 4.1813 J / g K
 water_Cv 4.1796 J / cm^3 K
@@ -48,7 +53,8 @@ steel_Cp 0.466 J / g K
 air_Cp 1.012 J / g K
 air_Cv 0.00121 J / cm^3 K
 
-# g-factor values
+# g-factor values.
+# Source: http://en.wikipedia.org/wiki/G-factor_%28physics%29#Measured_g-factor_values
 g_e  -2.002319304  # electron
 g_n  -3.82608545   # neutron
 g_p   5.585694713  # proton
