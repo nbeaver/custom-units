@@ -77,12 +77,15 @@ mAh mA * 1 hour
 # https://en.wikipedia.org/wiki/Battery_charger
 C_rate 1/hour
 
-# Defition of blood alcohol content/concentration used in US and Canada.
-# e.g. 0.10 BAC is .10 g/ dL
+# Defition of blood alcohol concentration used in US and Canada.
 BAC g/dL
+# e.g. 0.10 BAC is .10 grams / decilitre
+# https://en.wikipedia.org/wiki/Blood_alcohol_content
+
 ethanol_density 0.789 g/cm^3
 
-# The particle size of a given mesh number, according to page T848 of the Aldrich 2003-2004 Catalog/Handbook of Fine Chemicals.
+# The particle size of a given mesh number,
+# according to page T848 of the Aldrich 2003-2004 Catalog/Handbook of Fine Chemicals.
 # http://www.sigmaaldrich.com/chemistry/stockroom-reagents/learning-center/technical-library/particle-size-conversion.html
 
 mesh_Aldrich[mm] \
