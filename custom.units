@@ -22,6 +22,7 @@ r_e                     electronradius
 
 answer_to_life_the_universe_and_everything 42
 potrzebie               2.263348517438173216473 mm
+ngogn                   1000 potrzebie^3
 
 # https://en.wikipedia.org/wiki/Escape_velocity#List_of_escape_velocities
 escape_velocity_mercury 4.3  km/s
