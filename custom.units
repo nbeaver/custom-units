@@ -131,3 +131,7 @@ dram_fluid fluiddram
 
 # Turn this on if you need unitless radians.
 # radians 1
+
+π pi
+# There is unicode support,
+# so this is legal.
