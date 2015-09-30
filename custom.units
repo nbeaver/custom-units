@@ -125,7 +125,7 @@ mesh_Aldrich[mm] \
 dram_fluid fluiddram
 
 # Turn this on if you need unitless radians.
-radian 1
+# radian 1
 
 π pi
 # There is unicode support,
