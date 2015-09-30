@@ -130,3 +130,7 @@ dram_fluid fluiddram
 π pi
 # There is unicode support,
 # so this is legal.
+
+# Sawbuck and usgrand are already defined,
+# so why not benjamins?
+benjamin                 100 US$
