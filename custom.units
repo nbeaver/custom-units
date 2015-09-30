@@ -7,11 +7,6 @@
 # it will happily do so without warning you.
 # You can catch this with the --check flag.
 
-# Include the main units file.
-!include /usr/share/units/definitions.units
-# Use this instead in older version of GNU Units.
-#!include /usr/share/misc/units.dat 
-
 # Aliases for convenience (not new units)
 # I prefer this abbreviation for the Rydberg energy constant.
 # Source: <http://physics.nist.gov/cgi-bin/cuu/Value?rydhcev>
