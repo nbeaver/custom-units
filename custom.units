@@ -133,4 +133,10 @@ dram_fluid fluiddram
 
 # Sawbuck and usgrand are already defined,
 # so why not benjamins?
-benjamin                 100 US$
+benjamin                100 US$
+
+# Martian solar day,
+# not the same as a sidereal day.
+sol                     24 hour + 39 minute + 35.24409 seconds
+# Mark Watney's unit, from log entry on Sol 197 (see "The Martian", chapter 18).
+pirate_ninja            kWh/sol
