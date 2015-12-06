@@ -22,4 +22,4 @@ My custom units file is `here`_.
 
 .. _GNU units: https://www.gnu.org/software/units/
 .. _can be treated classically: https://en.wikipedia.org/wiki/Thermal_de_Broglie_wavelength
-.. _here: custom-units.txt
+.. _here: .units
