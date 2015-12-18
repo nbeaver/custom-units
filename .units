@@ -62,11 +62,8 @@ g_n  -3.82608545   # neutron
 g_p   5.585694713  # proton
 g_mu -2.0023318414 # muon
 
-# tons of TNT
-kiloton_TNT 4.184 gigajoule
-megaton_TNT 4.184 petajoule
-g_TNT       4.184 kilojoule
-kg_TNT      4.184 megajoule
+# I like capital letters for TNT.
+TNT tnt
 
 # chemistry stuff
 molarity mol/L
