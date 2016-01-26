@@ -137,3 +137,7 @@ benjamin                100 US$
 sol                     24 hour + 39 minute + 35.24409 seconds
 # Mark Watney's unit, from log entry on Sol 197 (see "The Martian", chapter 18).
 pirate_ninja            kWh/sol
+
+# Add some more Planck units.
+planckcharge		sqrt(4 pi epsilon0 hbar c)
+plancktemperature	planckmass c^2 / boltzmann
