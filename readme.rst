@@ -3,7 +3,7 @@ Custom GNU units file
 =====================
 
 `GNU units`_ is a command-line unit calculator.
-It is a tool with a long history, dating back to the early days of Unix.
+It is a tool with a long history, dating back to the `early versions of Unix`_.
 It lets you do things like checking to see if room-temperature hydrogen gas
 `can be treated classically`_ (it can)::
 
@@ -26,5 +26,6 @@ You can also run the default file and any custom units file like this::
 My custom units file is `here`_.
 
 .. _GNU units: https://www.gnu.org/software/units/
+.. _early versions of Unix: http://man.cat-v.org/unix-6th/6/units
 .. _can be treated classically: https://en.wikipedia.org/wiki/Thermal_de_Broglie_wavelength
 .. _here: .units
