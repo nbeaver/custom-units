@@ -14,6 +14,8 @@ Ry                      rydberg
 # Classical electron radius, a.k.a. Thomson scattering length, a.k.a Lorentz radius
 # Source: http://physics.nist.gov/cgi-bin/cuu/Value?re|search_for=electron
 r_e                     electronradius
+# British Thermal Units
+BTU btu
 
 answer_to_life_the_universe_and_everything 42
 potrzebie               2.263348517438173216473 mm
