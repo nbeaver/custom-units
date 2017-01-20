@@ -29,3 +29,11 @@ My custom units file is `here`_.
 .. _early versions of Unix: http://man.cat-v.org/unix-6th/6/units
 .. _can be treated classically: https://en.wikipedia.org/wiki/Thermal_de_Broglie_wavelength
 .. _here: .units
+
+-------
+License
+-------
+
+This project is licensed under the terms of the `MIT license`_.
+
+.. _MIT license: LICENSE.txt
