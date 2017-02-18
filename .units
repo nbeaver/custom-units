@@ -43,6 +43,9 @@ gravity_uranus  0.89  gravity
 gravity_neptune 1.14  gravity
 gravity_pluto   0.067 gravity
 
+m_mars 6.4191*10^23 kg
+r_mars 3.397*10^6 m
+
 # Specific heat capacities
 # Source: http://en.wikipedia.org/wiki/Specific_heat#Table_of_specific_heat_capacities
 # Specific heat capacity of water at 25 °C
