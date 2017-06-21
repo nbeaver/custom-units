@@ -146,3 +146,6 @@ pirate_ninja            kWh/sol
 # Add some more Planck units.
 planckcharge		sqrt(4 pi epsilon0 hbar c)
 plancktemperature	planckmass c^2 / boltzmann
+
+# https://en.wikipedia.org/wiki/Shannon_%28unit%29
+shannon                 bit
