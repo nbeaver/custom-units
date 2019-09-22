@@ -149,3 +149,12 @@ plancktemperature	planckmass c^2 / boltzmann
 
 # https://en.wikipedia.org/wiki/Shannon_%28unit%29
 shannon                 bit
+
+# Hyperbolic functions, only added in version 2.18.
+# https://www.gnu.org/software/units/manual/html_node/Built_002din-Functions.html#Built_002din-Functions
+sinh(x) units=[1] domain=(,) range=(,) (exp(x) - exp(-x))/2
+cosh(x) units=[1] domain=(,) range=(,) (exp(x) + exp(-x))/2
+tanh(x) units=[1] domain=(,) range=(,) sinh(x) / cosh(x)
+coth(x) units=[1] domain=(,) range=(,) 1/tanh(x)
+sech(x) units=[1] domain=(,) range=(,) 1/cosh(x)
+csch(x) units=[1] domain=(,) range=(,) 1/sinh(x)
