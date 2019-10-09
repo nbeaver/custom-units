@@ -197,3 +197,9 @@ factorial[1]  \
   29 8841761993739701954543616000000 \
   30 265252859812191058636308480000000
 # This isn't ideal, but I can't think of a better way.
+
+# Stirling approximation for the factorial.
+stirling(x) units=[1] domain=[0,) range=[0,) sqrt(2*pi*x)*x^x*exp(-x)
+# https://en.wikipedia.org/wiki/Stirling%27s_approximation
+# http://mathworld.wolfram.com/StirlingsApproximation.html
+# http://hyperphysics.phy-astr.gsu.edu/hbase/Math/stirling.html
