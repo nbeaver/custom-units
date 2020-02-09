@@ -204,4 +204,4 @@ stirling(x) units=[1] domain=[0,) range=[0,) sqrt(2*pi*x)*x^x*exp(-x)
 # http://mathworld.wolfram.com/StirlingsApproximation.html
 # http://hyperphysics.phy-astr.gsu.edu/hbase/Math/stirling.html
 
-fine_structure_constant = alpha
+fine_structure_constant alpha
