@@ -152,9 +152,9 @@ shannon                 bit
 
 # Hyperbolic functions, only added in version 2.18.
 # https://www.gnu.org/software/units/manual/html_node/Built_002din-Functions.html#Built_002din-Functions
-sinh(x) units=[1] domain=(,) range=(,) (exp(x) - exp(-x))/2; ln(sinh+sqrt(sinh^2+1))
-cosh(x) units=[1] domain=(,) range=(,) (exp(x) + exp(-x))/2; ln(cosh+sqrt(cosh^2-1))
-tanh(x) units=[1] domain=(,) range=(,) sinh(x) / cosh(x); (1/2)ln((1+tanh)/(1-tanh))
+#sinh(x) units=[1] domain=(,) range=(,) (exp(x) - exp(-x))/2; ln(sinh+sqrt(sinh^2+1))
+#cosh(x) units=[1] domain=(,) range=(,) (exp(x) + exp(-x))/2; ln(cosh+sqrt(cosh^2-1))
+#tanh(x) units=[1] domain=(,) range=(,) sinh(x) / cosh(x); (1/2)ln((1+tanh)/(1-tanh))
 # Problem with defining tanh this way is that it can't go higher than tanh(709).
 #
 coth(x) units=[1] domain=(,) range=(,) 1/tanh(x)        ; (1/2)ln((coth+1)/(coth-1))
