@@ -207,3 +207,7 @@ stirling(x) units=[1] domain=[0,) range=[0,) sqrt(2*pi*x)*x^x*exp(-x)
 # http://hyperphysics.phy-astr.gsu.edu/hbase/Math/stirling.html
 
 fine_structure_constant alpha
+
+# Inner diameter for ring sizes in North America.
+ringsize_inner_diameter(n) units=[;in] domain=[2,] range=[0.25865861,] \
+            ringsize(n)/(pi) ; (pi ringsize_inner_diameter/in + (-1.4216))/0.1018
