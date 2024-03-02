@@ -208,6 +208,14 @@ stirling(x) units=[1] domain=[0,) range=[0,) sqrt(2*pi*x)*x^x*exp(-x)
 
 fine_structure_constant alpha
 
+# Gyromagnetic ratio of electron, a.k.a. magnetogyric ratio.
+gamma_e 1.76085963023e11 radian s^-1 T^-1
+# https://physics.nist.gov/cgi-bin/cuu/Value?gammae
+gamma_e_bar gamma_e/(2 pi radian)
+# https://physics.nist.gov/cgi-bin/cuu/Value?gammaebar
+gyromagnetic_ratio_electron gamma_e
+magnetogyric_ratio_electron gamma_e
+
 # Inner diameter for ring sizes in North America.
 ringsize_inner_diameter(n) units=[;in] domain=[2,] range=[0.25865861,] \
             ringsize(n)/(pi) ; (pi ringsize_inner_diameter/in + (-1.4216))/0.1018
