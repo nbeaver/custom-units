@@ -160,6 +160,7 @@ shannon                 bit
 coth(x) units=[1] domain=(,) range=(,) 1/tanh(x)        ; (1/2)ln((coth+1)/(coth-1))
 sech(x) units=[1] domain=(,) range=(,) 1/cosh(x); ln(1/sech + sqrt(1/sech^2 -1))
 csch(x) units=[1] domain=(,) range=(,) 1/sinh(x); ln(1/csch + sqrt(1/csch^2+1))
+# TODO: is it possible to do multiple arguments? e.g. hypot(x,y) = hypotenuse(x,y) = x^2 + y^2
 
 # Absolute value.
 absval(x) units=[1] domain=(,) range=(,) sqrt(x*x)
